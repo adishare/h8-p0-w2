@@ -18,7 +18,7 @@ Display resultangaya
 1. masukkan tahun yang ingin diketahui jenis tahun nya
 2. proses tahun dengan kriteria tahun kabisat
 	3a. jika memenuhi kriteria tampilkan "tahun kabisat!"
-	3b.	jika tidak memenuhi kriteria tampilkan "bukan tahun kabisat!"
+	3b. jika tidak memenuhi kriteria tampilkan "bukan tahun kabisat!"
 
 //Pseudocode
 STORE tahun with year value
