@@ -1,0 +1,28 @@
+// bandungkan angka
+
+function bandingkanAngka(angka1, angka2) {
+  if(angka1 == angka2) {
+    return -1;  
+  }
+  else {
+    return angka1 < angka2;
+  }
+}
+
+//
+
+function balikKata(kata) {
+  return kata.split("").reverse().join("");
+}
+
+//or
+
+function balikKata(kata) {
+  var indexKata;
+  var newString = '';
+  for (indexKata = kata.length - 1 ; indexKata >= 0; indexKata-- ) {
+    newString += kata[indexKata];
+  }
+  return newString;
+}
+

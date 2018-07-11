@@ -1,0 +1,22 @@
+function xo(str) {
+  var charX = 0
+  var charO = 0
+
+  for (counter = 0; counter < str.length ; counter++) {
+    if (str[counter] == 'x') {
+      charX = charX + 1
+    }
+    else if (str[counter] == 'o') {
+      charO++
+   }
+  }
+  
+  return charO == charX
+}
+
+// TEST CASES
+console.log(xo('xoxoxo')); // true
+console.log(xo('oxooxo')); // false
+console.log(xo('oxo')); // false
+console.log(xo('xxxooo')); // true
+console.log(xo('xoxooxxo')); // true
